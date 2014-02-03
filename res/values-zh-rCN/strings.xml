@@ -17,6 +17,7 @@
     <string name="pref_dsp_enable">启用</string>
     <string name="pref_effect_title">选择效果强度</string>
     <string name="dialog_effect">效果强度</string>
+    <string name="pref_effect_freq_title">选择效果中心频率</string>
     <string name="pref_equalizer_title">均衡器</string>
     <string name="pref_equalizer_summary_on">启用均衡器</string>
     <string name="pref_equalizer_summary_off">禁用均衡器</string>
@@ -34,6 +35,11 @@
     <string name="pref_room_title">选择空间类型</string>
     <string name="dialog_room">空间类型</string>
     <string name="menu_reset">重置</string>
+    <string name="pref_headset_stereowide_title">立体声扩展</string>
+    <string name="pref_headset_stereowide_summary_on">立体声扩展已启用</string>
+    <string name="pref_headset_stereowide_summary_off">立体声扩展已禁用</string>
+    <string name="pref_headset_stereowide_enable">启用</string>
+    <string name="dialog_stereo">立体声扩展</string>
 
     <string name="eq_preset_acoustic">原音音乐</string>
     <string name="eq_preset_bass_booster">低音强化</string>
@@ -92,6 +98,10 @@
     <string name="pref_wm8994_adc_osr128_summary">数模转换器 128 倍过密采样, 提高录音品质</string>
     <string name="pref_wm8994_fll_tuning_title">调整音频时钟</string>
     <string name="pref_wm8994_fll_tuning_summary">使用调整过的 WM8994 音频时钟源, 改善音效品质</string>
+    
+    <string name="save_preset">保存设置</string>
+    <string name="load_preset">载入设置</string>
+    <string name="new_preset">新建设置...</string>
 
     <string name="help_title">用户手册</string>
     <string name="help_text"><b>什么是 DSP 管理器?</b>
@@ -138,4 +148,37 @@
 \n
 \n混频带来减少立体声分离的效果, 同时也会导致哈斯效应回响. 我们可以通过此效应而增加立体声声象. 此效应可以通过 &#8220;空间类型&#8221; 设置进行控制.
     </string>
+    
+    <!-- Sound Control -->
+    <string name="soundcontrol_title">声音控制</string>
+
+    <!-- Preferences -->
+    <string name="pref_soundcontrol_presets_title">预设</string>
+    <string name="pref_soundcontrol_headphone_gain_title">耳机增益</string>
+    <string name="pref_soundcontrol_headphone_poweramp_gain_title">PowerAmp耳机增益</string>
+    <string name="pref_soundcontrol_microphone_gain_title">麦克风增益</string>
+    <string name="pref_soundcontrol_speaker_gain_title">扩音器增益</string>
+    <string name="pref_soundcontrol_headphone_gain_left">耳机 左</string>
+    <string name="pref_soundcontrol_headphone_gain_right">耳机 右</string>
+    <string name="pref_soundcontrol_headphone_poweramp_gain_left">PowerAmp耳机 左</string>
+    <string name="pref_soundcontrol_headphone_poweramp_gain_right">PowerAmp耳机 右</string>
+    <string name="pref_soundcontrol_microphone_handset_gain_title">头戴麦克风</string>
+    <string name="pref_soundcontrol_microphone_camcorder_gain_title">录像机麦克风</string>
+
+    <string name="sc_version_title">声音控制</string>
+    <string name="sc_preset_summary">选择载入预设</string>
+    <string name="sc_preset_loaded">预设 \"%s\" 已加载!</string>
+    <string name="sc_preset_custom">自定义</string>
+    <string name="sc_preset_quality">质量高</string>
+    <string name="sc_preset_loudness">音量高</string>
+    <string name="sc_preset_quiet">音量低</string>
+    <string name="sc_preset_stock">默认</string>
+    <string name="sc_value_changed">请停止当前播放的音乐以生效!</string>
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_toggle">侧边栏</string>
+    <string name="navigation_drawer_open">打开侧边栏</string>
+    <string name="navigation_drawer_close">关闭侧边栏</string>
+    <string name="navigation_toggle_drawer">切换到侧边栏模式</string>
+    <string name="navigation_toggle_tabbed">切换到标签模式</string>
 </resources>
